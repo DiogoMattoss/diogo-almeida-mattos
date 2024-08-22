@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 35px;
+  background-color: rgba(0, 0, 0, 0.493);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-lista a {
+  display: inline-block;
+  margin-left: 30px;
+  padding: 10px;
+  border-radius: 1.7rem;
+  background-color: white;
+  color: darkslategray;
+}
+
+section {
+  padding: 80px 15%;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.sobre-mim {
+  background-color: white;
+}
+
+.sobre {
+  padding-top: 90px;
+  color: darkslategray;
+}
+
+.sobre h1 {
+  font-size: 4.4rem;
+  font-weight: 500;
+}
+
+.sobre h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.sobre p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.formacao {
+  background-color: darkslategray; 
+  color: white;
+}
+
+.formacao h2 {
+  font-size: 4.4rem;
+  font-weight: 500;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.formacao p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.portfolio {
+  background-color: white;
+}
+
+.conteudo-portfolio {
+  color: darkslategray;
+}
+
+.conteudo-portfolio h2 {
+  font-size: 4.4rem;
+  font-weight: 500;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.conteudo-portfolio a {
+  display: inline-block;
+  padding: 10px;
+  background-color: darkslategray;
+  color: white;
+  border-radius: 1.7rem;
+  transition: background-color, color, boder, .7s ease-in-out;
+}
+
+.conteudo-portfolio a:hover {
+  background-color: white;
+  color: darkslategray;
+  border: 1px solid darkslategray;
+}
+
+.contato {
+  padding-top: 180px;
+  background-color: darkslategray; 
+  color: white;
+}
+
+.contato h2 {
+  font-size: 4.4rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.contato p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 535px) {
+
+  header {
+    padding: 25px;
+  }
+
+  .nav-lista a {
+    margin-left: 1px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
